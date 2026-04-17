@@ -679,7 +679,7 @@ st.caption("FMCSA Pipeline Dashboard")
 df = load_data()
 
 render_section_header("Filters", "ᚠ")
-render_panel_banner("VIKINGS DASHBOARD", "Refine the battlefield")
+render_panel_banner("VIKINGS DASHBOARD", "TOGETHER WE CONQUER")
 status_options = ["All"] + sorted(value for value in df["Status"].unique() if value)
 tag_options = ["All"] + sorted(value for value in df["Tag"].unique() if value)
 
