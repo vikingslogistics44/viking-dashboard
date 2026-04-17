@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/
+.venv/
+venv/
+
+# Local runtime data
+FMCSA_RESULTS.csv
+
+# macOS / editor noise
+*.swp
+*.swo
